@@ -1,0 +1,157 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    text-decoration: none;
+    outline: none;
+    vertical-align: baseline;
+    color: inherit;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    font-family: 'OpenSansBold';
+    font-size: 0.9em;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #fff;
+    z-index: 6;
+}
+
+.header-title,
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 50%;
+    color: #000;
+}
+
+.logotype {
+    align-self: flex-end;
+    font-size: 2em;
+}
+
+.logotype a::before {
+    content: 'Template';
+}
+
+.users-menu {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 20%;
+    font-family: 'RobotoRegular';
+}
+
+.header_bars_small {
+    display: none;
+}
+
+.navbar li {
+    display: inline-flex;
+    height: 50%;
+}
+
+.navbar li:last-of-type {
+    justify-content: flex-end;
+    position: relative;
+}
+
+.navbar li:last-of-type .search {
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    right: 0;
+    height: auto;
+    color: #a8a8a8;
+}
+
+.navbar li > * {
+    height: 100%;
+}
+
+.navbar li a {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+}
+
+.navbar li a:active,
+.navbar li a.current {
+    color: #f14a58;
+}
+
+.navbar li a:hover {
+    color: #f14a58;
+}
+
+.navbar li a:hover::after {
+    width: 100%;
+}
+
+.search-container {
+    width: 80%;
+    font-family: 'OpenSansBold';
+    color: #a8a8a8;
+    border: none;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.search-container::-webkit-input-placeholder,
+.search-container::placeholder {
+    color: #a8a8a8;
+}
+
+.search-container::-ms-input-placeholder {
+    color: #a8a8a8;
+}

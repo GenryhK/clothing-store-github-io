@@ -1,0 +1,214 @@
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+.banner > * {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    height: 360px;
+    border: solid #e5e5e5;
+    border-width: 1px 0 1px 0;
+}
+
+.banner-name {
+    font-size: 1.3em;
+    position: relative;
+    bottom: 15%;
+}
+
+.banner-name > * {
+    text-align: center;
+}
+
+.banner-name h3 {
+    margin-bottom: 10px;
+    font-family: 'OpenSansBold';
+}
+
+.banner-name h5 {
+    font-weight: normal;
+    font-family: 'CrimsonTextItalic';
+}
+
+.mens-coat {
+    position: relative;
+    width: 50%;
+    background: url(../img/banner-1.png) no-repeat center center;
+    background-size: cover;
+}
+
+.mens-coat .banner-name {
+    position: absolute;
+    top: 12%;
+    right: 15%;
+}
+
+.changes {
+    position: relative;
+    width: 25%;
+    background: url(../img/banner-2.png) no-repeat center center;
+}
+
+.realization {
+    position: relative;
+    width: 25%;
+    background: url(../img/banner-3.png) no-repeat center center;
+}
+
+.realization .banner-name h3 {
+    color: #f14a58;
+}
+
+.realization .banner-name h5 {
+    color: #757575;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: 1px solid #e8e8e8;
+}
+
+.footer-nav,
+.footer-about {
+    display: inline-flex;
+    width: 45%;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding-top: 55px;
+    padding-bottom: 90px;
+}
+
+.footer-nav {
+    border-right: 1px solid #e8e8e8;
+}
+
+.copyrights {
+    display: flex;
+    width: 100%;
+}
+
+.footer-names {
+    width: 50%;
+}
+
+.footer h3 {
+    font-family: 'OpenSansBold';
+    margin-bottom: 25px;
+}
+
+.footer-names ul {
+    font-family: 'RobotoRegular';
+    margin-top: 50px;
+    list-style: none;
+}
+
+.footer-names ul li {
+    margin-bottom: 25px;
+}
+
+.footer-names ul li span {
+    position: relative;
+    cursor: pointer;
+}
+
+.footer-names span:hover {
+    color: #f14a58;
+}
+
+.footer-about > * {
+    font-family: 'RobotoRegular';
+    width: 45%;
+}
+
+.twitt-us {
+    display: flex;
+}
+
+.twitter-container span {
+    font-weight: bold;
+}
+
+.delivery {
+    font-family: 'CrimsonTextItalic';
+    width: 90%;
+    color: #757575;
+    font-size: 1.3em;
+    line-height: 2em;
+}
+
+.social {
+    display: flex;
+    width: 90%;
+}
+
+.social .facebook {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url('https://cdn.worldvectorlogo.com/logos/facebook-2.svg') no-repeat center;
+    background-size: 7px;
+}
+
+.twitter-icon {
+    margin-left: 20px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url('https://vignette.wikia.nocookie.net/24wikia/images/c/c8/Twitter_Bird.svg/revision/latest?cb=20140203235251') no-repeat center;
+    background-size: 24px;
+    background-position-y: -5px;
+}
+
+.social .twitter {
+    margin-left: 20px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url('https://vignette.wikia.nocookie.net/24wikia/images/c/c8/Twitter_Bird.svg/revision/latest?cb=20140203235251') no-repeat center;
+    background-size: 24px;
+}
+
+.copyrights {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    font-size: .9em;
+    border-top: 1px solid #e8e8e8;
+}
+
+.copyright,
+.about {
+    width: 30%;
+    font-family: 'RobotoBold';
+}
+
+.share {
+    width: 10%;
+    text-align: center;
+    font-family: 'OpenSansBold';
+    font-size: 1.2em;
+}
+
+.share span {
+    font-family: 'RobotoRegular';
+    padding: 5px;
+    font-size: 0.7em;
+    margin-bottom: -15px;
+    background-color: #f4f4f4;
+}
+
+.about {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.about a {
+    margin-left: 40px;
+}
